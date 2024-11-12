@@ -8,3 +8,4 @@ class Livro(Base):
     nome = Column(String, index=True)
     autor = Column(String, index=True)
     paginas = Column(Integer)
+
