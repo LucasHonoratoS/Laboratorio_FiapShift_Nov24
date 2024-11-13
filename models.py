@@ -9,3 +9,5 @@ class Livro(Base):
     autor = Column(String, index=True)
     paginas = Column(Integer)
 
+    class Config:
+        from_attributes = True
