@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+    return {"Mundo melius": "quid fecisti"}
 
 @app.get("/livro/livro_id")
 def read_livro(livro_id: int, q:Union[str, None] = None):
